@@ -1,0 +1,67 @@
+
+.container{
+    background-color: #330033;
+    font-family: 'Playfair Display', serif;
+
+    background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
+    background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
+    border-radius: 3rem;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+@keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+  }
+
+
+
+.title{
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+}
+.card-body,.p-5{
+    background-color: pink;
+    border: transparent;
+
+    background: linear-gradient(45deg,#8df06f, #eca4c0, #8fd2eb , #7ce7ce,#eedf8a, #ec5832);
+    background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
+
+
+}
+
+
+.card-body{
+    border: solid #fff;
+    border-radius: 10px;
+}
+
+.col-md-4{
+    
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#github-action-search{
+    background-color: #e2b9e2;
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    
+}
+
+#github-name{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
